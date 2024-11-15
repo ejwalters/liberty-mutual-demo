@@ -1,0 +1,103 @@
+.hero-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f8f8;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 0.5rem 0;
+  }
+  
+  .insurance-options {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+  }
+  
+  .insurance-options button,
+  .additional-coverage button {
+    border: 1px solid #333;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .see-all {
+    color: #0071bc;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .zip-code-input {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+  }
+  
+  .zip-code-input input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .zip-code-input button {
+    background-color: #0071bc;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .additional-coverage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .additional-coverage p {
+    margin-right: 1rem;
+    color: #666;
+  }
+
+  .insurance-options button,
+  .additional-coverage button {
+    border: 1px solid #333;
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .insurance-options .selected,
+  .additional-coverage .selected {
+    background-color: #0071bc;
+    color: white;
+  }
+  
+  .zip-error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  
+  

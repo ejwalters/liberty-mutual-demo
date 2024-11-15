@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f8f8f8;
+  }
+  
+  .navbar-logo img {
+    height: 200px;
+  }
+  
+  .navbar-links a,
+  .navbar-actions a {
+    margin: 0 1rem;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

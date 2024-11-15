@@ -1,0 +1,41 @@
+.get-quote-page {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .get-quote-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .get-quote-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .get-quote-page label {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .get-quote-page input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 200px;
+    margin-top: 0.5rem;
+  }
+  
+  .get-quote-page button {
+    background-color: #0071bc;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
