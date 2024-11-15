@@ -21,10 +21,6 @@ async function setupAnalytics() {
   await analytics.load({
     writeKey: 'srr5VjfaYsc1FBHSniRwCXY3lmguQe03'
   });
-  signalsPlugin.addSignal({
-    type: 'userDefined',
-    data: { foo: 'bar' }
-  })
   analytics.page();
 
 }
