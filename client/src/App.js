@@ -15,12 +15,12 @@ let analytics;
 async function setupAnalytics() {
   analytics = new AnalyticsBrowser();
   const signalsPlugin = new SignalsPlugin();
-  analytics.register(signalsPlugin); // Register plugin
-  console.log("Signals Plugin registered"); // Log to confirm registration
-
+  analytics.register(signalsPlugin);
+  
   await analytics.load({
     writeKey: 'srr5VjfaYsc1FBHSniRwCXY3lmguQe03'
   });
+  
   analytics.page();
 
 }
